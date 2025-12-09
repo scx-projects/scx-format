@@ -11,7 +11,7 @@
     </parent>
 
     <artifactId>scx-format</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <packaging>jar</packaging>
 
     <name>SCX Format</name>
@@ -75,26 +75,6 @@
             <version>${scx-node.version}</version>
         </dependency>
 
-        <dependency>
-            <groupId>tools.jackson.core</groupId>
-            <artifactId>jackson-core</artifactId>
-            <version>${jackson.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.fasterxml.woodstox</groupId>
-            <artifactId>woodstox-core</artifactId>
-            <version>${woodstox.version}</version>
-        </dependency>
-
-        <!-- Jackson XML 测试包 -->
-        <dependency>
-            <groupId>tools.jackson.dataformat</groupId>
-            <artifactId>jackson-dataformat-xml</artifactId>
-            <version>${jackson.version}</version>
-            <scope>test</scope>
-        </dependency>
-
         <!-- TestNG 测试包 -->
         <dependency>
             <groupId>org.testng</groupId>
@@ -109,8 +89,6 @@
 
         <!-- *********************** 以下为依赖包版本 *********************** -->
         <scx-node.version>0.0.2</scx-node.version>
-        <jackson.version>3.0.3</jackson.version>
-        <woodstox.version>7.1.1</woodstox.version>
         <testng.version>7.11.0</testng.version>
 
     </properties>
