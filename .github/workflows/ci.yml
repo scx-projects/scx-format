@@ -22,7 +22,7 @@ jobs:
         run: mvn package
 
       - name: 上传构建产物
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v6
         with:
           name: scx-format-artifact
           path: ./target/
