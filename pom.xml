@@ -11,7 +11,7 @@
     </parent>
 
     <artifactId>scx-format</artifactId>
-    <version>0.10.0</version>
+    <version>0.10.1</version>
     <packaging>jar</packaging>
 
     <name>SCX Format</name>
@@ -88,7 +88,7 @@
     <properties>
 
         <!-- *********************** 以下为依赖包版本 *********************** -->
-        <scx-node.version>0.10.0</scx-node.version>
+        <scx-node.version>0.10.1</scx-node.version>
         <testng.version>7.12.0</testng.version>
 
     </properties>
